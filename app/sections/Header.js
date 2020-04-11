@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#35605a',
         flex:1,
         flexDirection:'row',
-        borderColor:'#000'
+        borderColor:'#000000',
     },
     logoStyle : {
         flex: 1,

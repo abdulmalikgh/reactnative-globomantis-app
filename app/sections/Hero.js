@@ -2,9 +2,12 @@ import React from 'react'
 import {Image, StyleSheet} from 'react-native'
 
 export default function Hero(){
-    <Image 
-        source={require('./img/laptop2.jpg') }
-        style={styles.heroImage}/>
+    return (
+        <Image 
+            source={require('./img/laptop2.jpg') }
+            style={styles.heroImage}
+        />
+    )
 }
 
 const styles = StyleSheet.create({
