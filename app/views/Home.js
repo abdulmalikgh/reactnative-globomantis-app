@@ -1,14 +1,22 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet,Image } from 'react-native'
+import Header from '../sections/Header'
+import Hero from './Hero'
 
 export default class Home extends React.Component{
     render() {
         return (
-            <View>
-                <Text>This will be the Homepage</Text>
-                <Text>These other lines are here</Text>
-                <Text>So you can the text in the app</Text>
+            <View style={styles.container}>
+                <Header message = {" Press to Login"}/>
+                <Hero />
+                <Text style={{flex:6}} >These other lines are here</Text>      
             </View>
         )
     }
 }
+
+const styles = StyleSheet.create({
+    container : {
+        flex:1
+    }
+})
