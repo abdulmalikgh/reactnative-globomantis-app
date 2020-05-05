@@ -21,7 +21,7 @@ export default class Menu extends React.Component{
                     <TouchableOpacity style={styles.buttonStyles} onPress={this.onPress} >
                         <Text style={styles.buttonText}>BLOG</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.buttonStyles} onPress={this.onPress} >
+                    <TouchableOpacity style={styles.buttonStyles} onPress={()=> {this.props.navigate('ContactRT')}} >
                         <Text style={styles.buttonText}>CONTACTS</Text>
                     </TouchableOpacity>
                 </View>
